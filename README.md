@@ -3,8 +3,8 @@ link interceptor in Grafana 10.1.2.
 
 https://github.com/grafana/grafana/issues/75279
 
-Essentially: Some links in Grafana Dashboards are mangled incorrectly when are
-rewritten by Javascript.
+Essentially: Some links in Grafana Dashboards are mangled incorrectly when
+intercepted by Javascript.
 
 ## Reproducing the bug
 
