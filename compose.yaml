@@ -1,0 +1,9 @@
+version: "3"
+services:
+  grafana:
+    image: docker.io/grafana/grafana:10.1.2
+    ports:
+      - 3000:3000
+    volumes:
+      - ./grafana.ini:/etc/grafana/grafana.ini:ro
+      - ./home.json:/etc/grafana/provisioning/dashboards/home.json:ro
