@@ -1,7 +1,7 @@
 This repo contains a script and minimal configuration to reproduce a bug in the
 link interceptor in Grafana 10.1.2.
 
-TODO: Add a link to the bug once filed.
+https://github.com/grafana/grafana/issues/75279
 
 Essentially: Some links in Grafana Dashboards are mangled incorrectly when are
 rewritten by Javascript.
